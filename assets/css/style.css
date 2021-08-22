@@ -1,0 +1,103 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    box-shadow: 1px 1.5px 2px cornflowerblue;
+    font-size: 30px;
+    
+} 
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: dimgray;
+    color: white;
+    transition: 1s;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: cornflowerblue;
+  }
+
+.nav {
+    position: fixed;
+}
+
+.main-header {
+    background-color: lightskyblue;
+    box-shadow: 1px 1.5px 2px  lightskyblue;
+}
+
+.image {
+    background-color: white;
+}
+
+form {
+    
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+  }
+  
+label {
+        display: inline-block;
+width: 100px;
+}
+
+input, 
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid cornflowerblue;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+}
