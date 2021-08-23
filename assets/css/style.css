@@ -56,13 +56,15 @@ footer {
     background-color: cornflowerblue;
   }
 
-.nav {
+.navbar {
     position: fixed;
+    width: 100%;
 }
 
 .main-header {
     background-color: lightskyblue;
     box-shadow: 1px 1.5px 2px  lightskyblue;
+    padding-top: 50px;
 }
 
 .image {
